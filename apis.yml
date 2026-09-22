@@ -1,23 +1,64 @@
 aid: aixinsemiconductortechnology
+
 name: Aixinsemiconductortechnology
-description: 'Aixinsemiconductortechnology is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Axera Semiconductor Co., Ltd. (Aixin Semiconductor Technology) is a global leader in AI inference SoC solutions, delivering high‑performance perception and computing platforms for on‑device computing, edge AI inference, and smart vehicles. Listed on the Hong Kong Stock Exchange in February 2026, the company focuses on advanced edge and terminal‑side AI technologies, serving industries such as smart vehicles, vision, and edge AI chips.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aixinsemiconductortechnology/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-22'
+
 modified: '2026-09-22'
+
 tags:
 - Company
-apis: []
+- Semiconductor
+- AI
+- Edge Computing
+- Smart Vehicles
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: DomainSecurity
+  url: security/aixinsemiconductortechnology-domain-security.yml
+- type: SDKs
+  url: packages/aixinsemiconductortechnology-packages.yml
+- type: Packages
+  url: packages/aixinsemiconductortechnology-packages.yml
+- type: Newsroom
+  url: https://axera-tech.com/zh-hans/news
+- type: GitHubOrganization
+  url: https://github.com/AXERA-TECH
 - type: Website
-  url: https://equityzen.com/company/aixinsemiconductortechnology
+  url: https://axera-tech.com
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: No public developer program or API documentation is available on the company's website.
+  evidence:
+    - url: https://axera-tech.com
+      status: 200
+  checked: 2026-09-22
+x-enrichment:
+  date: '2026-09-22'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

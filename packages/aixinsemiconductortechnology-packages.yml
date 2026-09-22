@@ -1,0 +1,88 @@
+generated: '2026-09-22'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/AXERA-TECH
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (axera-tech.com,
+  security/aixinsemiconductotechnology-domain-security.yml) or its accepted GitHub org (AXERA-TECH).'
+packages:
+- name: ax-video-sdk
+  registry: github
+  url: https://github.com/AXERA-TECH/ax-video-sdk
+  language: C++
+  official: true
+  version: null
+  published: '2026-09-15'
+  source_repo: https://github.com/AXERA-TECH/ax-video-sdk
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: ax_asr_api
+  registry: github
+  url: https://github.com/AXERA-TECH/ax_asr_api
+  language: C++
+  official: true
+  version: null
+  published: '2026-08-05'
+  source_repo: https://github.com/AXERA-TECH/ax_asr_api
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: ax_tts_api
+  registry: github
+  url: https://github.com/AXERA-TECH/ax_tts_api
+  language: C++
+  official: true
+  version: null
+  published: '2026-07-23'
+  source_repo: https://github.com/AXERA-TECH/ax_tts_api
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libclip.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libclip.axera
+  language: C++
+  official: true
+  version: null
+  published: '2026-05-15'
+  source_repo: https://github.com/AXERA-TECH/libclip.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libtranslate.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libtranslate.axera
+  language: C++
+  official: true
+  version: null
+  published: '2026-03-05'
+  source_repo: https://github.com/AXERA-TECH/libtranslate.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libocr.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libocr.axera
+  language: C++
+  official: true
+  version: null
+  published: '2025-10-30'
+  source_repo: https://github.com/AXERA-TECH/libocr.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libsr.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libsr.axera
+  language: C++
+  official: true
+  version: null
+  published: '2025-09-29'
+  source_repo: https://github.com/AXERA-TECH/libsr.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libdet.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libdet.axera
+  language: C++
+  official: true
+  version: null
+  published: '2025-09-29'
+  source_repo: https://github.com/AXERA-TECH/libdet.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
+- name: libembeding.axera
+  registry: github
+  url: https://github.com/AXERA-TECH/libembeding.axera
+  language: C++
+  official: true
+  version: null
+  published: '2025-09-23'
+  source_repo: https://github.com/AXERA-TECH/libembeding.axera
+  evidence: repository in github.com/AXERA-TECH, whose profile names the provider's domain
