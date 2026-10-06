@@ -17,7 +17,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-22'
 
-modified: '2026-09-22'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -39,6 +39,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://axera-tech.com/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/aixinsemiconductortechnology-domain-security.yml
 - type: SDKs
